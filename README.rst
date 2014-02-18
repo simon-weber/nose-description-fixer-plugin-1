@@ -1,4 +1,4 @@
-This is a simple Nose plugin that forces nosetests to print the full test name, rather than the docstring.
+This is a simple Nose plugin that forces nosetests to print the full test name in verbose mode, rather than just the docstring.
 
 For example, given the test file ``example.py``:
 
