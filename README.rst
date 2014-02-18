@@ -16,7 +16,7 @@ For example, given the test file ``example.py``:
 This plugin changes the output of ``nosetests -v example.py`` from::
 
     This is my docstring ... ok
-    test_without_docstring (vagrant.venmo_tests.example.MyTestCase) ... ok
+    test_without_docstring (mymodule.MyTestCase) ... ok
 
 To::
 

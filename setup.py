@@ -6,7 +6,7 @@ setup(
     author_email='nat.williams@gmail.com',
     maintainer='Simon Weber',
     maintainer_email='simon@simonmweber.com',
-    version='0.0.3',
+    version='0.0.4',
     description=('A Nose plugin to fix the way tests are described when the '
                  'verbose flag (-v) is used'),
     long_description=open('README.rst').read(),
