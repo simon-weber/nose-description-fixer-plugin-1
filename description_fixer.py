@@ -1,5 +1,6 @@
 from nose.plugins import Plugin
 
+
 class DescriptionFixer(Plugin):
     """
     Test description fixer plugin.
@@ -34,5 +35,4 @@ class DescriptionFixer(Plugin):
             self.enabled = False
 
     def describeTest(self, test):
-        return False # this is where the magic happens
-
+        return False  # this is where the magic happens
