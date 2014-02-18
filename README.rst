@@ -1,6 +1,6 @@
 This is a simple Nose plugin that forces nosetests to print the full test name, rather than the docstring.
 
-For example, given the test file `example.py`:
+For example, given the test file ``example.py``:
 
 .. code-block:: python
 
@@ -13,7 +13,7 @@ For example, given the test file `example.py`:
             """This is my docstring"""
             pass
 
-This plugin changes the output of `nosetests -v example.py` from::
+This plugin changes the output of ``nosetests -v example.py`` from::
 
     This is my docstring ... ok
     test_without_docstring (vagrant.venmo_tests.example.MyTestCase) ... ok
