@@ -1,6 +1,6 @@
 This is a simple Nose plugin that forces nosetests to print the full test name, rather than the docstring.
 
-For example, given the test file `example.py`::
+For example, given the test file `example.py`:
 
 .. code-block:: python
 
@@ -10,20 +10,18 @@ For example, given the test file `example.py`::
             pass
 
         def test_with_docstring(self):
-        """This is my docstring"""
+            """This is my docstring"""
             pass
 
 This plugin changes the output of `nosetests -v example.py` from::
 
-    test_without_docstring (mymodule.MyTestCase) ... ok
     This is my docstring ... ok
+    test_without_docstring (vagrant.venmo_tests.example.MyTestCase) ... ok
 
 To::
 
-    test_without_docstring (mymodule.MyTestCase) ... ok
     test_with_docstring (mymodule.MyTestCase) ... ok
+    test_without_docstring (mymodule.MyTestCase) ... ok
 
-Installation
-------------
 
-`pip install nose-description-fixer-plugin`
+Install with ``pip install nose-description-fixer-plugin``.
